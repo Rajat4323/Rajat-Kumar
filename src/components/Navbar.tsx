@@ -123,17 +123,6 @@ const Navbar: React.FC<{ darkMode: boolean }> = ({ darkMode }) => {
             </Link>
             <Link
               activeClass="active"
-              to="codingProfile"
-              spy={true}
-              smooth={true}
-              offset={-75}
-            >
-              <li className="coding flex w-[165px] cursor-pointer items-center justify-center duration-[0.4s] hover:-translate-x-1 hover:-translate-y-1 hover:text-[1.38rem] hover:text-teal-500">
-                Coding Profile
-              </li>
-            </Link>
-            <Link
-              activeClass="active"
               to="project"
               spy={true}
               smooth={true}
@@ -215,18 +204,6 @@ const Navbar: React.FC<{ darkMode: boolean }> = ({ darkMode }) => {
               >
                 <li className="skillsm inline-block w-full cursor-pointer p-1 px-1 duration-[0.4s] hover:translate-x-1 hover:translate-y-1 hover:text-[1.37rem] hover:text-teal-500">
                   Skills
-                </li>
-              </Link>
-              <Link
-                onClick={() => setMenu(false)}
-                activeClass="active"
-                to="codingProfile"
-                spy={true}
-                smooth={true}
-                offset={-75}
-              >
-                <li className="codingm inline-block w-full cursor-pointer p-1 px-1 duration-[0.4s] hover:translate-x-1 hover:translate-y-1 hover:text-[1.37rem] hover:text-teal-500">
-                  Coding Profile
                 </li>
               </Link>
               <Link
